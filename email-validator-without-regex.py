@@ -1,4 +1,4 @@
-#EMAIL VALIDATION PROGRAME(without regex)
+#EMAIL VALIDATION PROGRAM(without regex)
 while True:
     user = input('Enter a valid email: ')
 
@@ -24,7 +24,7 @@ while True:
     if invalid:
         invalid = False
         continue
-#newemail@gmail.com
+        
     #validating local part
     local_name = user.split('@')
 
