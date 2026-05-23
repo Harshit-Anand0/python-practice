@@ -35,7 +35,7 @@ while True:
         continue 
         
 
-    #validating domain name and top domain name
+    #validating domain name and top level domain name
     domain_name = local_name[1].split('.')
 
     if len(domain_name[0]) < 1:
