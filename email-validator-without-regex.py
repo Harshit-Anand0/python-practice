@@ -85,7 +85,6 @@ try:
     find_error(user)
 
     print("Your Email address is Valid.")
-    break
 
 except ValueError as _:
     print(_)
