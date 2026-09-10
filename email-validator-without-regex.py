@@ -86,8 +86,8 @@ try:
 
     print("Your Email address is Valid.")
 
-except ValueError as _:
-    print(_)
+except ValueError as e:
+    print(e)
 
 
     
